@@ -26,7 +26,7 @@
     width: 85%;
 }
 .subscribed-list h3{
-    font-size: 17 px;
+    font-size: 17px;
     margin: 20px 0 ;
     color: #5a5a5a;
 }
@@ -53,4 +53,30 @@
     padding-bottom: 2px;
     border-bottom: 3px solid red;
 
+}
+
+/* Tablet */
+@media (max-width: 992px) {
+  .sidebar {
+    width: 70px;
+    padding-left: 15px;
+  }
+
+  .sidebar p,
+  .sidebar h3,
+  .sidebar hr {
+    display: none;
+  }
+
+  .shortcut-links img,
+  .subscribed-list .side-links img {
+    margin-right: 0;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
 }

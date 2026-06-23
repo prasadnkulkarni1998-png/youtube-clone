@@ -25,3 +25,33 @@
     font-size: 13px;
     
 }
+
+
+/* Tablet */
+@media (max-width: 992px) {
+  .feed {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-column-gap: 14px;
+    grid-row-gap: 25px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .feed {
+    grid-template-columns: 1fr;
+    grid-row-gap: 22px;
+  }
+
+  .card h2 {
+    font-size: 15px;
+  }
+
+  .card h3 {
+    font-size: 13px;
+  }
+
+  .card p {
+    font-size: 12px;
+  }
+}

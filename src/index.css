@@ -17,3 +17,18 @@ img{
     align-items: center;
 }
 
+body {
+  overflow-x: hidden;
+  background: #f9f9f9;
+}
+
+img,
+video,
+iframe {
+  max-width: 100%;
+}
+
+button,
+input {
+  font-family: inherit;
+}

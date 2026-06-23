@@ -18,3 +18,53 @@
     font-size: 13px;
     margin-bottom: 5px;
 }
+
+
+/* Tablet */
+@media (max-width: 992px) {
+  .recommended {
+    flex-basis: 100%;
+  }
+
+  .side-video-list img {
+    width: 40%;
+  }
+
+  .vid-info {
+    flex-basis: 58%;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .recommended {
+    flex-basis: 100%;
+  }
+
+  .side-video-list {
+    gap: 10px;
+  }
+
+  .side-video-list img {
+    width: 45%;
+  }
+
+  .vid-info h4 {
+    font-size: 13px;
+  }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+  .side-video-list {
+    flex-direction: column;
+  }
+
+  .side-video-list img {
+    width: 100%;
+  }
+
+  .vid-info {
+    flex-basis: 100%;
+  }
+}

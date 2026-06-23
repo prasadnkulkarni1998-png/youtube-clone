@@ -9,3 +9,28 @@
     padding-left: 7%;
 
 }
+
+/* Tablet */
+@media (max-width: 992px) {
+  .container {
+    padding-left: 90px;
+    padding-right: 3%;
+  }
+
+  .large-container {
+    padding-left: 90px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .container {
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 15px;
+  }
+
+  .large-container {
+    padding-left: 4%;
+  }
+}

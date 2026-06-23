@@ -9,3 +9,20 @@
     flex-wrap: wrap;
 
 }
+/* Tablet */
+@media (max-width: 992px) {
+  .play-container {
+    padding-left: 3%;
+    padding-right: 3%;
+    gap: 20px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .play-container {
+    flex-direction: column;
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+}
